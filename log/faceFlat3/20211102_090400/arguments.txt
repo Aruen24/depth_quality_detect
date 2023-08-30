@@ -1,0 +1,10 @@
+batch_size: 16
+learning_rate_schedule_file: learn_rate/learnrate.txt
+image_w_size: 96
+weight_decay: 1e-05
+keep_probability: 0.6
+max_nrof_epochs: 105
+log_base_dir: log/faceFlat3
+model_def: models.faceFlat3
+doflip: True
+image_h_size: 112
